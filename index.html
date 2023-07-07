@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Shop</title>
+    <link rel="stylesheet" href="a1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+    <div class="firstPage">
+        <div class="navbar">
+            <img src="https://www.logolynx.com/images/logolynx/13/13089a74163cbc8318e653b5ff779a78.jpeg" alt="Error"
+                height="100" width="100">
+            <li><a href="#introSection">Intro Section</a></li>
+            <li><a href="#bestSellingBooks">Best Selling Books</a></li>
+            <li><a href="#ourRecommendation">Our Recommendation</a></li>
+            <li><a href="#reviewSection">Review Section</a></li>
+            <li><a href="#footer">Footer</a></li>
+        </div>
+
+        <div id="introSection">
+            <!-- image to be added in background -->
+            <h3>THE LITERARY HEAVEN</h3>
+            <h1>Where Stories Come Alive!</h1>
+            <p>In a world of constant change, books serve as anchors, preserving wisdom, culture, and the collective
+                human experience for generations to come.</p>
+            <button class="btn"><a href="#bestSellingBooks">Best Selling Books</a></button>
+        </div>
+    </div>
+
+    <div id="bestSellingBooks">
+        <h1>BEST SELLING BOOKS</h1>
+        <h3>Uncover the Literary Gems that have Captivated Millions</h3>
+        <div class="cards">
+            <li>
+                <div id="discount">Discount 50%</div><br>
+                <img src="Where Echoes Die.jpg" alt="Error" height="200" width="150">
+                <h2>Where Echoes Die
+                    <button class="btn2" id="1" onclick="clicked(id)">Add+</button>
+                </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nisi inventore culpa perspiciatis
+                    dicta ducimus minima corrupti repudiandae quisquam eos esse voluptate asperiores modi aperiam hic
+                    libero, ad impedit sit sunt? Excepturi, tempora eligendi debitis ea error ipsam explicabo quia?.</p>
+                <h2 id="price">Rs.1500/-</h2>
+            </li>
+            <li>
+                <img src="The Lib.jpg" alt="Error" height="200" width="150">
+                <h2>The Librarianist
+                    <button class="btn2" id="2" onclick="clicked(id)">Add+</button>
+                </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, mollitia sunt. Voluptatum
+                    voluptatibus provident illo et nostrum odio dolore asperiores natus! Assumenda atque numquam, eaque
+                    distinctio vitae excepturi minima temporibus repudiandae aliquid consequatur rerum quod dolorum
+                    incidunt et a quia.</p>
+                <h2 id="price">Rs.1000/-</h2>
+            </li>
+            <li>
+                <img src="New Kid.webp" alt="Error" height="200" width="150">
+                <h2>New Kid
+                    <button class="btn2" id="3" onclick="clicked(id)">Add+</button>
+                </h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa commodi ex officia laborum ullam,
+                    odit possimus voluptate sunt nostrum a accusamus quidem exercitationem, error et sequi voluptates.
+                    Id natus in, ratione, hic adipisci, molestias blanditiis et aliquid suscipit quisquam vero.</p>
+                <h2 id="price">Rs.800/-</h2>
+            </li>
+            <li>
+                <img src="The Paradox Of Debt.webp" alt="Error" height="200" width="150">
+                <h2>The Paradox of the Debt
+                    <button class="btn2" id="4" onclick="clicked(id)">Add+</button>
+                </h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, perspiciatis illum expedita
+                    dignissimos possimus eaque odit, distinctio, voluptates beatae vitae velit vel? At officia, sed, rem
+                    voluptatum eveniet obcaecati neque cupiditate voluptatem iusto veritatis corporis nihil odio quo
+                    ipsam laborum.</p>
+                <h2 id="price">Rs.2000/-</h2>
+            </li>
+        </div>
+    </div>
+
+    <div id="ourRecommendation">
+        <h1>RECOMMENDATION SECTION</h1>
+        <h3>We Recommend Best for You</h3>
+        <div class="search-container">
+            <input type="text" placeholder="Search">
+            <button type="submit"><i class="fas fa-search fa-2x"></i></button>
+        </div>
+        <div class="cards">
+            <li>
+                <img src="Artist's Way.jpg" alt="Error" height="200" width="150">
+                <h2>Artist's Way
+                    <button class="btn2" id="5" onclick="clicked(id)">Add+</button>
+                </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas deserunt mollitia nisi voluptates
+                    repellat sunt? Quas laborum quo doloribus, quibusdam, rem voluptatibus numquam culpa est aperiam
+                    voluptatem illo necessitatibus eius iste libero voluptas quae non itaque officiis ab mollitia
+                    repellendus.</p>
+                <h2 id="price">Rs.2000/-</h2>
+            </li>
+            <li>
+                <img src="Atomic Habits.jpg" alt="Error" height="200" width="150">
+                <h2>Atomic Habits
+                    <button class="btn2" id="6" onclick="clicked(id)">Add+</button>
+                </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam optio harum dolorum omnis, suscipit
+                    quis hic? Autem facilis natus fugiat minus quae eius consectetur, consequuntur modi temporibus
+                    libero itaque odit eligendi. Id, quae quam reiciendis expedita sed rem nesciunt! Laudantium?.</p>
+                <h2 id="price">Rs.2000/-</h2>
+            </li>
+            <li>
+                <img src="Hooked.webp" alt="Error" height="200" width="150">
+                <h2>Hooked
+                    <button class="btn2" id="7" onclick="clicked(id)">Add+</button>
+                </h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores nostrum maxime sapiente atque,
+                    minus eligendi, officia doloremque, numquam eum tempora impedit obcaecati nam aliquid odit illo
+                    perferendis nobis corporis! Rem, doloremque corporis quasi nam in enim ratione veritatis porro
+                    mollitia!</p>
+                <h2 id="price">Rs.2000/-</h2>
+            </li>
+            <li>
+                <img src="It Ends With Us.jpg" alt="Error" height="200" width="150">
+                <h2>It Ends With Us
+                    <button class="btn2" id="8" onclick="clicked(id)">Add+</button>
+                </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, voluptas? Quasi mollitia pariatur
+                    adipisci, similique ipsam eius nihil odio suscipit repudiandae eos. Nulla minus perferendis, aut vel
+                    cumque hic ex eum laudantium et error corporis laboriosam saepe, possimus earum harum!</p>
+                <h2 id="price">Rs.2000/-</h2>
+            </li>
+            <li>
+                <img src="The Book of Magic.webp" alt="Error" height="200" width="150">
+                <h2>The Book of Magic
+                    <button class="btn2" id="9" onclick="clicked(id)">Add+</button>
+                </h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, assumenda omnis suscipit quasi
+                    quibusdam voluptas sequi asperiores accusantium cupiditate qui voluptatem enim ullam odit nemo
+                    libero deleniti consectetur. Pariatur ipsum id tempora. Alias magni provident libero eaque sequi
+                    necessitatibus quis.</p>
+                <h2 id="price">Rs.2000/-</h2>
+            </li>
+            <li>
+                <img src="The Paris Apartment.webp" alt="Error" height="200" width="150">
+                <h2>The Paris Apartment
+                    <button class="btn2" id="10" onclick="clicked(id)">Add+</button>
+                </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa sunt excepturi necessitatibus quos
+                    odit nobis numquam dignissimos. Modi doloremque voluptas quae eum totam sint dolorem nulla adipisci
+                    laboriosam esse cum natus est, deleniti repudiandae autem veritatis laudantium et iste ut.</p>
+                <h2 id="price">Rs.2000/-</h2>
+            </li>
+            <li>
+                <img src="Verity.webp" alt="Error" height="200" width="150">
+                <h2>Verity
+                    <button class="btn2" id="11" onclick="clicked(id)">Add+</button>
+                </h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae provident rem ullam? Recusandae,
+                    repellendus tenetur atque quia, inventore nulla, repellat veniam harum eius cumque dolorem. Quod
+                    esse, deserunt vitae nesciunt laborum ab repellendus laboriosam reprehenderit dolor eligendi
+                    repellat assumenda possimus.</p>
+                <h2 id="price">Rs.2000/-</h2>
+            </li>
+            <li>
+                <img src="Where Echoes Die.jpg" alt="Error" height="200" width="150">
+                <h2>Where Echoes Die
+                    <button class="btn2" id="12" onclick="clicked(id)">Add+</button>
+                </h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem placeat dolore eum veniam
+                    modi sunt ducimus, iure aperiam iusto magnam accusamus asperiores fuga porro quidem temporibus
+                    explicabo ad facilis neque accusantium nisi voluptates ea quibusdam dolorum illo. Sit, ratione
+                    repudiandae?</p>
+                <h2 id="price">Rs.2000/-</h2>
+            </li>
+            <li>
+                <img src="New Kid.webp" alt="Error" height="200" width="150">
+                <h2>New Kid
+                    <button class="btn2" id="13" onclick="clicked(id)">Add+</button>
+                </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat cupiditate minima magni quae! Cum
+                    temporibus necessitatibus veritatis minima nesciunt dolor beatae, voluptatum facilis ipsum. Veniam
+                    eum nihil aperiam iusto laboriosam animi dolore voluptatibus sunt, quia, sint molestias saepe
+                    temporibus praesentium.</p>
+                <h2 id="price">Rs.2000/-</h2>
+            </li>
+        </div>
+    </div>
+
+    <hr><hr>
+    <div id="reviewSection">
+        <h1>REVIEW SECTION</h1>
+        <h3>Reviews from OUR BUYERS</h3>
+        <div class="reviews">
+            <li>
+                <img src="https://tse4.mm.bing.net/th?id=OIP.wEsBe2udHBieFeZVmus8qAHaHk&pid=Api&P=0&h=180" alt="Error">
+                <h2>Philip</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat non quam assumenda eveniet est enim.
+                    Est assumenda vitae quis consequuntur nam blanditiis ex deleniti sequi, fugiat nobis non architecto
+                    ea eaque possimus repellendus fugit voluptatum earum et officia eius deserunt.</p>
+            </li>
+            <li>
+                <img src="https://tse4.mm.bing.net/th?id=OIP.--GRSptuFXxmSDA34kfWOwHaI8&pid=Api&P=0&h=180" alt="Error">
+                <h2>Robert</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam minus nisi fugiat voluptatum nihil
+                    ullam in, impedit aliquid obcaecati earum, assumenda incidunt vel beatae. Molestiae, adipisci minima
+                    repellendus quibusdam culpa rerum odit aliquam quod facilis, voluptate nobis id animi labore.</p>
+            </li>
+            <li>
+                <img src="https://tse3.mm.bing.net/th?id=OIP.4OeNhfHyrBa-OfOmzvfE6gHaHa&pid=Api&P=0&h=180" alt="Error">
+                <h2>Tyson</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam nobis, libero illum quod maiores
+                    possimus culpa aut quae repellat accusamus ad exercitationem dolorum, quasi necessitatibus provident
+                    ab inventore veniam consequatur sapiente corporis mollitia. Cum fugiat vero odio earum hic numquam.
+                </p>
+            </li>
+        </div>
+    </div>
+    <hr><hr>
+    <h1>Write your Reviwes</h1>
+
+    <form class="container">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+        <label for="review">Your Review</label>
+        <input type="text" id="content">
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <div id="footer">
+        <h1>FOLLOW US ON</h1>
+        <div class="socialmedia">
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><i
+                    class="fab fa-facebook fa-3x"  style="color:blue"></i></a>
+            <a href="https://www.twitter.com/" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter fa-3x" style="color:aqua"></i></a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" style="color:red"><i
+                    class="fab fa-instagram fa-3x"></i></a>
+        </div>
+        <li><a href="#">Terms and Conditions</a></li>
+        <li><a href="#">Copyright Infringment</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <button class="btn"><a href="#introSection">Back To Top</a></button>
+    </div>
+
+    <script>
+        function changeBackgroundColor() {
+            var element = document.getElementById('discount');
+            var colors = ['#87CEEB', 'white']; // Add more colors if desired
+            var currentColor = 0;
+
+            setInterval(function () {
+                element.style.backgroundColor = colors[currentColor];
+                currentColor = (currentColor + 1) % colors.length;
+            }, 500);
+        }
+        changeBackgroundColor();
+
+        function clicked(id) {
+            var element = document.getElementById(id);
+            element.innerHTML = "Added";
+            element.style.color = 'green';
+        }
+
+    </script>
+</body>
+
+</html>
